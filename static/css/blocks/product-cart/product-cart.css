@@ -1,0 +1,277 @@
+.productGelerea {
+  display: flex;
+}
+.up {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.active {
+  opacity: 1 !important;
+}
+
+.up img {
+  opacity: 0.5;
+  width: 75px;
+  height: 93px;
+}
+.productGelerea {
+  width: 536px;
+}
+.basic img {
+  width: 413px;
+  height: 516px;
+}
+
+.productDedeil {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+}
+
+.characteristik {
+  width: 536px;
+}
+
+.characteristik h3 {
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.priseNew {
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 3%;
+}
+
+.priseOld {
+  font-family: Abel;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-decoration: line-through;
+  color: rgba(160, 160, 160, 1);
+}
+
+.detailCaracteristic {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.characteristicItem {
+  width: 140px;
+  height: 65px;
+
+  gap: 8px;
+  border-radius: 7px;
+  padding: 16px;
+  display: flex;
+  background: rgba(244, 244, 244, 1);
+  align-items: center;
+}
+
+.characteristiName {
+  font-family: Abel;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: rgba(167, 167, 167, 1);
+  display: block;
+}
+
+.characteristik p {
+  font-family: Abel;
+  font-weight: 400;
+  font-size: 14px;
+
+  text-decoration-thickness: 0%;
+
+  color: rgba(108, 108, 108, 1);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.wite {
+  width: 50%;
+  width: 260px;
+  height: 56px;
+  min-width: 136px;
+  padding-top: 16px;
+  padding-right: 56px;
+  padding-bottom: 16px;
+  padding-left: 56px;
+  gap: 8px;
+  border-radius: 6px;
+  border-width: 1px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: transparent;
+}
+
+.blak {
+  width: 50%;
+  width: 260px;
+  height: 56px;
+  min-width: 136px;
+  padding-top: 16px;
+  padding-right: 56px;
+  padding-bottom: 16px;
+  padding-left: 56px;
+  gap: 8px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+}
+/* _________________________________________ */
+.info {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: #ffffff;
+
+  width: 158px;
+}
+.infoItem div:first-child {
+  padding: 16px 16px 10px 22px;
+  background: #f6f6f6;
+
+  border-radius: 11px;
+  width: 100%;
+  max-width: 220px;
+}
+.infoItem:first-child {
+  padding-left: 0px;
+}
+.infoItem img {
+  width: 24px;
+  height: 24px;
+}
+
+.infoItemText1 {
+  display: block;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+.infoItemText2 {
+  display: block;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #666666;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.deteilProductBlock {
+  background: #fafafa;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.deteilProductText {
+  width: 1040px;
+  padding: 48px 40px 40px 40px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+.deteilProductText h3 {
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.deteilProductText p {
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #9d9d9d;
+}
+
+.detailItem {
+  display: flex;
+  border-bottom: 0.5px solid #cdcdcd;
+  padding: 12px 0;
+  justify-content: space-between;
+  font-family: Abel;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+/* ____________________________________ */
+
+.statistic {
+  width: 1120px;
+  padding: 80px 0;
+  background: #ffffff;
+  margin: auto;
+}
+
+.statistikProdukt {
+  width: 150px;
+  height: 144px;
+  border-radius: 25px;
+  padding: 32px;
+  background: #fafafa;
+}
+
+.reting {
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  margin: 0;
+}
+
+.reviews {
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  color: #777;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.container5_2Deteil {
+  margin-bottom: 80px;
+}
