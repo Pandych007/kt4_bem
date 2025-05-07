@@ -628,9 +628,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url(/static/img/image6.png), url(/static/img/image18.png),
-    url(/static/img/image19.png), url(/static/img/image7.png),
-    url(/static/img/image8.png);
+  background: url(./static/img/image6.png), url(./static/img/image18.png),
+    url(./static/img/image19.png), url(./static/img/image7.png),
+    url(./static/img/image8.png);
 
   background-repeat: no-repeat;
   background-position-x: 200px, 31px, 31px, right, right;
